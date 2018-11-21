@@ -11,8 +11,5 @@ export function sub(num1, num2) {
 }
 
 export function div(num1, num2) {
-    if (!num2) {    // Matches +0, -0, NaN
-        return NaN;
-    }
-    return num1 / num2;
+    return (!num2) ? NaN : num1 / num2;     // (!num2) matches +0, -0, NaN
 }
