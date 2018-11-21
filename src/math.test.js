@@ -1,7 +1,7 @@
-import {add, mul, sub, div} from './math';
+import {sum, mul, sub, div} from './math';
 
 test("Adding 1 + 1 equals 2", () => {
-    expect(add(1, 1)).toBe(2)
+    expect(sum(1, 1)).toBe(2)
 })
 
 test("Multiplying 1 * 1 equals 1", () => {
