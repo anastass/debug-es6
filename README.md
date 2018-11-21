@@ -1,7 +1,13 @@
 Debugging ES6 in Visual Studio Code
 ===================================
 
-##Links
+## To run application
+    yarn install
+    yarn compile    # use 'yarn compile -w' if you want to watch for changes
+    yarn test
+    node .compiled\app.js
+
+## Links
 
 - [Debugging ES6 in Visual Studio Code](https://medium.com/@drcallaway/debugging-es6-in-visual-studio-code-4444db797954)
 - [TESTING JAVASCRIPT WITH JEST](https://flaviocopes.com/jest/)
