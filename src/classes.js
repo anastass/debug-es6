@@ -20,5 +20,8 @@ class Person {
       }
   }
   
-  const staff = new Staff('Jane', 'Fuller', '0643256');
-  console.log(staff.info());
+const staff = new Staff('Jane', 'Fuller', '0643256');
+const message = (person) => `For more information, please contact Ms. ${person.last_name.toUpperCase()}, ${person.first_name}.`
+
+console.log(staff.info());
+console.log(message(staff));
